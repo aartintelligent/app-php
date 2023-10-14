@@ -1,0 +1,9 @@
+/.idea
+/.git
+/.github
+/.gitignore
+/docker-compose.yml
+/Dockerfile
+/icon.svg
+/README.md
+/helm
