@@ -92,7 +92,7 @@ php${PHP_VERSION}-bcmath \
 php${PHP_VERSION}-opcache \
 php${PHP_VERSION}-apcu \
 php${PHP_VERSION}-amqp \
-#php${PHP_VERSION}-xdebug \
+php${PHP_VERSION}-xdebug \
 php${PHP_VERSION}-oauth \
 php${PHP_VERSION}-redis \
 php${PHP_VERSION}-curl \

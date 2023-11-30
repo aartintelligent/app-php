@@ -8,16 +8,7 @@ docker build . \
 --build-arg "UID=$(id -u)" \
 --build-arg "GID=$(id -g)" \
 --build-arg "GIT_COMMIT=$(git rev-parse HEAD)" \
---build-arg 'PHP_VERSION=8.3'
-```
-
-```shell
-docker build . \
---tag aartintelligent/app-php:8.3 \
---build-arg "UID=$(id -u)" \
---build-arg "GID=$(id -g)" \
---build-arg "GIT_COMMIT=$(git rev-parse HEAD)" \
---build-arg 'PHP_VERSION=8.3'
+--build-arg 'PHP_VERSION=8.2'
 ```
 
 ```shell
@@ -43,13 +34,6 @@ docker run -d \
 --net host \
 --name app-php \
 aartintelligent/app-php:latest
-```
-
-```shell
-docker run -d \
---net host \
---name app-php \
-aartintelligent/app-php:8.3
 ```
 
 ```shell
@@ -111,10 +95,6 @@ docker push aartintelligent/app-php:8.1
 
 ```shell
 docker push aartintelligent/app-php:8.2
-```
-
-```shell
-docker push aartintelligent/app-php:8.3
 ```
 
 ```shell
