@@ -60,6 +60,7 @@ PHP_OPCACHE__PRELOAD_USER="rootless" \
 PHP_OPCACHE__LOCKFILE_PATH="/var/lock/opcache" \
 PHP_OPCACHE__JIT="function" \
 PHP_OPCACHE__JIT_BUFFER_SIZE="512M" \
+FPM_ERROR_LOG="/proc/1/fd/1" \
 FPM_LOG_LEVEL="warning" \
 FPM_LOG_LIMIT="1024" \
 FPM_LOG_BUFFER="yes" \
