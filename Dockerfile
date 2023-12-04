@@ -86,7 +86,15 @@ $(lsb_release -cs) main" \
 RUN set -eux; \
 apt-get update \
 && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+make \
+build-essential \
+pkg-config \
+autoconf \
+libtool \
+bison \
+re2c \
 php${PHP_VERSION}-cli \
+php${PHP_VERSION}-dev \
 php${PHP_VERSION}-fpm \
 php${PHP_VERSION}-common \
 php${PHP_VERSION}-bcmath \
