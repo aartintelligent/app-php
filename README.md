@@ -8,7 +8,7 @@ docker build . \
 --build-arg "UID=$(id -u)" \
 --build-arg "GID=$(id -g)" \
 --build-arg "GIT_COMMIT=$(git rev-parse HEAD)" \
---build-arg 'PHP_VERSION=8.3'
+--build-arg "PHP_VERSION=8.3"
 ```
 
 ```shell
@@ -17,7 +17,7 @@ docker build . \
 --build-arg "UID=$(id -u)" \
 --build-arg "GID=$(id -g)" \
 --build-arg "GIT_COMMIT=$(git rev-parse HEAD)" \
---build-arg 'PHP_VERSION=8.3'
+--build-arg "PHP_VERSION=8.3"
 ```
 
 ```shell
@@ -26,7 +26,7 @@ docker build . \
 --build-arg "UID=$(id -u)" \
 --build-arg "GID=$(id -g)" \
 --build-arg "GIT_COMMIT=$(git rev-parse HEAD)" \
---build-arg 'PHP_VERSION=8.2'
+--build-arg "PHP_VERSION=8.2"
 ```
 
 ```shell
