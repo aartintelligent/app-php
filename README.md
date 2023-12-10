@@ -12,6 +12,14 @@ docker build . \
 ```
 
 ```shell
+docker run -it --rm \
+--net host \
+--name app-php \
+aartintelligent/app-php:latest \
+php -v
+```
+
+```shell
 docker run -d \
 --net host \
 --name app-php \
