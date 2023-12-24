@@ -2,7 +2,7 @@ FROM aartintelligent/app-nginx:latest
 
 USER root
 
-ARG PHP_VERSION='8.2'
+ARG PHP_VERSION='8.3'
 
 ENV \
 API_RUNTIME="supervisord" \
